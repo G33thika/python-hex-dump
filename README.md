@@ -1,4 +1,4 @@
-# hex_dum_python
+# python hex dump
 hex dump, same as  xxd tool.
 
 
