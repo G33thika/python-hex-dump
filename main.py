@@ -23,7 +23,8 @@ try:
             p +=8
             c +=16
         n +=2
-    print(format(c,'08x'),' : ',' '.join(hex_list),' ', ''.join(map(str, str_list)))   
+    print(format(c,'08x'),' : ',' '.join(hex_list),' ', ''.join(map(str, str_list)))
+    x.close()
 except IndexError:
   print("usage : program_name [infile] [outfile]")
 except FileNotFoundError:
